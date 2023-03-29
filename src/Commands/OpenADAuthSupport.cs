@@ -3,7 +3,7 @@ using System.Management.Automation;
 namespace PSOpenAD.Commands;
 
 [Cmdlet(
-    VerbsCommon.Get, "OpenADAuthSupport"
+    VerbsCommon.Get, "AuthSupport"
 )]
 [OutputType(typeof(AuthenticationProvider))]
 public class GetOpenADAuthSupport : PSCmdlet

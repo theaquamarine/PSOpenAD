@@ -5,7 +5,7 @@ using System.Threading;
 namespace PSOpenAD.Commands;
 
 [Cmdlet(
-    VerbsCommon.Get, "OpenADSession"
+    VerbsCommon.Get, "Session"
 )]
 [OutputType(typeof(OpenADSession))]
 public class GetOpenADSession : PSCmdlet
@@ -19,7 +19,7 @@ public class GetOpenADSession : PSCmdlet
 }
 
 [Cmdlet(
-    VerbsCommon.New, "OpenADSession",
+    VerbsCommon.New, "Session",
     DefaultParameterSetName = "ComputerName"
 )]
 [OutputType(typeof(OpenADSession))]
@@ -97,7 +97,7 @@ public class NewOpenADSession : PSCmdlet
 }
 
 [Cmdlet(
-    VerbsCommon.Remove, "OpenADSession"
+    VerbsCommon.Remove, "Session"
 )]
 public class RemoveOpenADSession : PSCmdlet
 {

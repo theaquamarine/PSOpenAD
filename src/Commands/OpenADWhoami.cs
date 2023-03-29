@@ -34,7 +34,7 @@ public sealed class WhoamiResult
 }
 
 [Cmdlet(
-    VerbsCommon.Get, "OpenADWhoami",
+    VerbsCommon.Get, "Whoami",
     DefaultParameterSetName = "Server"
 )]
 [OutputType(typeof(WhoamiResult))]

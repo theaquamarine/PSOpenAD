@@ -7,7 +7,7 @@ using System.Threading;
 namespace PSOpenAD.Commands;
 
 [Cmdlet(
-    VerbsCommon.Get, "OpenADGroupMember",
+    VerbsCommon.Get, "GroupMember",
     DefaultParameterSetName = "ServerIdentity"
 )]
 [OutputType(typeof(OpenADPrincipal))]

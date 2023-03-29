@@ -5,7 +5,7 @@ using System.Security.Cryptography.X509Certificates;
 namespace PSOpenAD.Commands;
 
 [Cmdlet(
-    VerbsCommon.New, "OpenADSessionOption"
+    VerbsCommon.New, "SessionOption"
 )]
 [OutputType(typeof(OpenADSessionOptions))]
 public class NewOpenADSessionOption : PSCmdlet

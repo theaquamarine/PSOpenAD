@@ -312,7 +312,7 @@ public abstract class GetOpenADOperation<T> : PSCmdlet
 }
 
 [Cmdlet(
-    VerbsCommon.Get, "OpenADObject",
+    VerbsCommon.Get, "Object",
     DefaultParameterSetName = "ServerLDAPFilter"
 )]
 [OutputType(typeof(OpenADObject))]
@@ -330,7 +330,7 @@ public class GetOpenADObject : GetOpenADOperation<ADObjectIdentity>
 }
 
 [Cmdlet(
-    VerbsCommon.Get, "OpenADComputer",
+    VerbsCommon.Get, "Computer",
     DefaultParameterSetName = "ServerLDAPFilter"
 )]
 [OutputType(typeof(OpenADComputer))]
@@ -346,7 +346,7 @@ public class GetOpenADComputer : GetOpenADOperation<ADPrincipalIdentityWithDolla
 }
 
 [Cmdlet(
-    VerbsCommon.Get, "OpenADUser",
+    VerbsCommon.Get, "User",
     DefaultParameterSetName = "ServerLDAPFilter"
 )]
 [OutputType(typeof(OpenADUser))]
@@ -365,7 +365,7 @@ public class GetOpenADUser : GetOpenADOperation<ADPrincipalIdentity>
 }
 
 [Cmdlet(
-    VerbsCommon.Get, "OpenADGroup",
+    VerbsCommon.Get, "Group",
     DefaultParameterSetName = "ServerLDAPFilter"
 )]
 [OutputType(typeof(OpenADGroup))]
@@ -381,7 +381,7 @@ public class GetOpenADGroup : GetOpenADOperation<ADPrincipalIdentity>
 }
 
 [Cmdlet(
-    VerbsCommon.Get, "OpenADServiceAccount",
+    VerbsCommon.Get, "ServiceAccount",
     DefaultParameterSetName = "ServerLDAPFilter"
 )]
 [OutputType(typeof(OpenADServiceAccount))]
