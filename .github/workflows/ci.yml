@@ -1,16 +1,5 @@
 name: Test PSOpenAD
-on:
-  push:
-    branches:
-    - main
-
-  pull_request:
-    branches:
-    - main
-
-  release:
-    types:
-    - published
+on: push
 
 env:
   DOTNET_CLI_TELEMETRY_OPTOUT: 1
